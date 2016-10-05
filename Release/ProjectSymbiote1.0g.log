@@ -1,0 +1,98 @@
+﻿Build started 2/27/2014 12:39:48 AM.
+     1>Project "E:\Code\SimBiotic\ProjectSymbiote1.0g.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\SimBiotic\Release\DeferredRendering.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" /LIBPATH:"C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib" /LIBPATH:"C:\Program Files\Autodesk\FBX\FBX SDK\2014.2.1\lib\vs2012\x86\release" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\SimBiotic\Release\DeferredRendering.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\SimBiotic\Release\DeferredRendering.lib" /MACHINE:X86 /SAFESEH Release\DeferredRendering.res
+         Release\Actor.obj
+         Release\Checkbox.obj
+         Release\Component.obj
+         Release\Frame.obj
+         Release\Game.obj
+         Release\GameConfigInterface.obj
+         Release\GameData.obj
+         Release\GameInitInfo.obj
+         Release\GameMode.obj
+         Release\GMDeathmatch.obj
+         Release\GMSectorControl.obj
+         Release\Label.obj
+         Release\Listbox.obj
+         Release\pseBase.obj
+         Release\pseBlockEditing.obj
+         Release\pseGeneral.obj
+         Release\pseInput.obj
+         Release\pseLA.obj
+         Release\pseLoad.obj
+         Release\psGameClient.obj
+         Release\psHUD.obj
+         Release\psInput.obj
+         Release\psLogic.obj
+         Release\psMath.obj
+         Release\psMechanics.obj
+         Release\psPhysics.obj
+         Release\S2D.obj
+         Release\S3D.obj
+         Release\SAnimatedMesh.obj
+         Release\SAUDIO.obj
+         Release\SCamera.obj
+         Release\SCharacter.obj
+         Release\SConfigs.obj
+         Release\SCore.obj
+         Release\SCreateLobbyMenu.obj
+         Release\SD3D.obj
+         Release\SDeferredRenderer.obj
+         Release\SEditorGrid.obj
+         Release\SFont.obj
+         Release\SFuncs.obj
+         Release\SGameObject.obj
+         Release\SGameServer.obj
+         Release\SGameServerMode.obj
+         Release\SGameServerModeCTF.obj
+         Release\SGameServerModeDM.obj
+         Release\SGameServerModeSC.obj
+         Release\SGameServerModeTDM.obj
+         Release\SGameServerPlayer.obj
+         Release\SGameServerWorld.obj
+         Release\SGridMesh.obj
+         Release\SGUI.obj
+         Release\SimBioticNetClient.obj
+         Release\Simple.obj
+         Release\SimpleButton.obj
+         Release\SInput.obj
+         Release\SInterface.obj
+         Release\SLeaderboard.obj
+         Release\SLevelEditor.obj
+         Release\Slider.obj
+         Release\SLight.obj
+         Release\SLineBoxMesh.obj
+         Release\SLobbyServer.obj
+         Release\SLOG.obj
+         Release\SMainMenu.obj
+         Release\SMainMenuModCharacter.obj
+         Release\SMatchmakingMenu.obj
+         Release\SMaterial.obj
+         Release\SMaterialSet.obj
+         Release\SMesh.obj
+         Release\SMutableMesh.obj
+         Release\SOptionsMenu.obj
+         Release\SParticleSystem.obj
+         Release\SPhysics.obj
+         Release\SPreMenu.obj
+         Release\srAnimatedMeshAllocater.obj
+         Release\SRender.obj
+         Release\SSetPoint.obj
+         Release\SSGame.obj
+         Release\SSingleMatchMenu.obj
+         Release\SText.obj
+         Release\SWin32.obj
+         Release\SymbioteWinsock.obj
+         Release\TextField.obj
+         Release\VoxelData.obj
+         Release\Weapon.obj
+         Release\WeaponBase.obj
+         Release\World.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         ProjectSymbiote1.0g.vcxproj -> E:\Code\SimBiotic\Release\DeferredRendering.exe
+     1>Done Building Project "E:\Code\SimBiotic\ProjectSymbiote1.0g.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62

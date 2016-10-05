@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>DeferredRendering</ProjectName>
+    <ProjectGuid>{23E3EEB7-21BE-42D8-39CE-D060436604CB}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;C:\Program Files\Autodesk\FBX\FBX SDK\2014.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files %28x86%29\Windows Kits\8.0\Lib\win8\um\x86;C:\Program Files\Autodesk\FBX\FBX SDK\2014.2.1\lib\vs2012\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;C:\Program Files\Autodesk\FBX\FBX SDK\2014.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;C:\Program Files\Autodesk\FBX\FBX SDK\2014.2.1\lib\vs2012\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CustomBuildStep>
+      <Command>/D_WINSOCKAPI_</Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="adAPT.cpp" />
+    <ClCompile Include="Cal3D\animation.cpp" />
+    <ClCompile Include="Cal3D\animation_action.cpp" />
+    <ClCompile Include="Cal3D\animation_cycle.cpp" />
+    <ClCompile Include="Cal3D\bone.cpp" />
+    <ClCompile Include="Cal3D\buffersource.cpp" />
+    <ClCompile Include="Cal3D\cal3d_wrapper.cpp" />
+    <ClCompile Include="Cal3D\coreanimation.cpp" />
+    <ClCompile Include="Cal3D\corebone.cpp" />
+    <ClCompile Include="Cal3D\corekeyframe.cpp" />
+    <ClCompile Include="Cal3D\corematerial.cpp" />
+    <ClCompile Include="Cal3D\coremesh.cpp" />
+    <ClCompile Include="Cal3D\coremodel.cpp" />
+    <ClCompile Include="Cal3D\coremorphanimation.cpp" />
+    <ClCompile Include="Cal3D\coreskeleton.cpp" />
+    <ClCompile Include="Cal3D\coresubmesh.cpp" />
+    <ClCompile Include="Cal3D\coresubmorphtarget.cpp" />
+    <ClCompile Include="Cal3D\coretrack.cpp" />
+    <ClCompile Include="Cal3D\error.cpp" />
+    <ClCompile Include="Cal3D\global.cpp" />
+    <ClCompile Include="Cal3D\hardwaremodel.cpp" />
+    <ClCompile Include="Cal3D\loader.cpp" />
+    <ClCompile Include="Cal3D\matrix.cpp" />
+    <ClCompile Include="Cal3D\mesh.cpp" />
+    <ClCompile Include="Cal3D\mixer.cpp" />
+    <ClCompile Include="Cal3D\model.cpp" />
+    <ClCompile Include="Cal3D\morphtargetmixer.cpp" />
+    <ClCompile Include="Cal3D\physique.cpp" />
+    <ClCompile Include="Cal3D\platform.cpp" />
+    <ClCompile Include="Cal3D\quaternion.cpp" />
+    <ClCompile Include="Cal3D\renderer.cpp" />
+    <ClCompile Include="Cal3D\saver.cpp" />
+    <ClCompile Include="Cal3D\skeleton.cpp" />
+    <ClCompile Include="Cal3D\springsystem.cpp" />
+    <ClCompile Include="Cal3D\streamsource.cpp" />
+    <ClCompile Include="Cal3D\submesh.cpp" />
+    <ClCompile Include="Cal3D\tinyxml.cpp" />
+    <ClCompile Include="Cal3D\tinyxmlerror.cpp" />
+    <ClCompile Include="Cal3D\tinyxmlparser.cpp" />
+    <ClCompile Include="Cal3D\vector.cpp" />
+    <ClCompile Include="Checkbox.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameConfigInterface.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="GameInitInfo.cpp" />
+    <ClCompile Include="GameLoadoutMenu.cpp" />
+    <ClCompile Include="GameMainMenu.cpp" />
+    <ClCompile Include="GameMode.cpp" />
+    <ClCompile Include="GMDeathmatch.cpp" />
+    <ClCompile Include="GMSectorControl.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LGIDX11.cpp" />
+    <ClCompile Include="Listbox.cpp" />
+    <ClCompile Include="OperatingSystemInterface.cpp" />
+    <ClCompile Include="OSIWin32.cpp" />
+    <ClCompile Include="pseBase.cpp" />
+    <ClCompile Include="pseBlockEditing.cpp" />
+    <ClCompile Include="pseGeneral.cpp" />
+    <ClCompile Include="pseInput.cpp" />
+    <ClCompile Include="pseLA.cpp" />
+    <ClCompile Include="pseLoad.cpp" />
+    <ClCompile Include="psGameClient.cpp" />
+    <ClCompile Include="psHUD.cpp" />
+    <ClCompile Include="psInput.cpp" />
+    <ClCompile Include="psLogic.cpp" />
+    <ClCompile Include="psMath.cpp" />
+    <ClCompile Include="psMechanics.cpp" />
+    <ClCompile Include="psPhysics.cpp" />
+    <ClCompile Include="S2D.cpp" />
+    <ClCompile Include="S3D.cpp" />
+    <ClCompile Include="SAbility.cpp" />
+    <ClCompile Include="SAbility_Blink.cpp" />
+    <ClCompile Include="SAbility_Firebolt.cpp" />
+    <ClCompile Include="SAbility_Wallhack.cpp" />
+    <ClCompile Include="SAnimatedMesh.cpp" />
+    <ClCompile Include="SAUDIO.cpp" />
+    <ClCompile Include="SCamera.cpp" />
+    <ClCompile Include="SCharacter.cpp" />
+    <ClCompile Include="SConfigs.cpp" />
+    <ClCompile Include="SCore.cpp" />
+    <ClCompile Include="SCreateLobbyMenu.cpp" />
+    <ClCompile Include="SD3D.cpp" />
+    <ClCompile Include="SDeferredRenderer.cpp" />
+    <ClCompile Include="SEditorGrid.cpp" />
+    <ClCompile Include="SExplosive.cpp" />
+    <ClCompile Include="SFont.cpp" />
+    <ClCompile Include="SFuncs.cpp" />
+    <ClCompile Include="SGameObject.cpp" />
+    <ClCompile Include="SGameServer.cpp" />
+    <ClCompile Include="SGameServerMode.cpp" />
+    <ClCompile Include="SGameServerModeCTF.cpp" />
+    <ClCompile Include="SGameServerModeDM.cpp" />
+    <ClCompile Include="SGameServerModeSC.cpp" />
+    <ClCompile Include="SGameServerModeTDM.cpp" />
+    <ClCompile Include="SGameServerPlayer.cpp" />
+    <ClCompile Include="SGameServerWorld.cpp" />
+    <ClCompile Include="SGridMesh.cpp" />
+    <ClCompile Include="SGUI.cpp" />
+    <ClCompile Include="SImage.cpp" />
+    <ClCompile Include="SimBioticNetClient.cpp" />
+    <ClCompile Include="Simple.cpp" />
+    <ClCompile Include="SimpleButton.cpp" />
+    <ClCompile Include="SInput.cpp" />
+    <ClCompile Include="SInterface.cpp" />
+    <ClCompile Include="SJoinLobbyMenu.cpp" />
+    <ClCompile Include="SLeaderboard.cpp" />
+    <ClCompile Include="SLevelEditor.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="SLight.cpp" />
+    <ClCompile Include="SLineBoxMesh.cpp" />
+    <ClCompile Include="SLobbyServer.cpp" />
+    <ClCompile Include="SLOG.cpp" />
+    <ClCompile Include="SMainMenu.cpp" />
+    <ClCompile Include="SMainMenuModCharacter.cpp" />
+    <ClCompile Include="SMatchmakingMenu.cpp" />
+    <ClCompile Include="SMaterial.cpp" />
+    <ClCompile Include="SMaterialSet.cpp" />
+    <ClCompile Include="SMesh.cpp" />
+    <ClCompile Include="SMutableMesh.cpp" />
+    <ClCompile Include="SOptionsMenu.cpp" />
+    <ClCompile Include="SParticleSystem.cpp" />
+    <ClCompile Include="SPhysics.cpp" />
+    <ClCompile Include="SPreMenu.cpp" />
+    <ClCompile Include="SProjectile.cpp" />
+    <ClCompile Include="SRender.cpp" />
+    <ClCompile Include="SSetPoint.cpp" />
+    <ClCompile Include="SSGame.cpp" />
+    <ClCompile Include="SSingleMatchMenu.cpp" />
+    <ClCompile Include="SText.cpp" />
+    <ClCompile Include="SWin32.cpp" />
+    <ClCompile Include="SymbioteWinsock.cpp" />
+    <ClCompile Include="TextField.cpp" />
+    <ClCompile Include="VoxelData.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponBase.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="ActorClass.h" />
+    <ClInclude Include="adAPT.h" />
+    <ClInclude Include="BaseModule.h" />
+    <ClInclude Include="Cal3D\animation.h" />
+    <ClInclude Include="Cal3D\animation_action.h" />
+    <ClInclude Include="Cal3D\animation_cycle.h" />
+    <ClInclude Include="Cal3D\animcallback.h" />
+    <ClInclude Include="Cal3D\bone.h" />
+    <ClInclude Include="Cal3D\buffersource.h" />
+    <ClInclude Include="Cal3D\cal3d.h" />
+    <ClInclude Include="Cal3D\cal3d_wrapper.h" />
+    <ClInclude Include="Cal3D\coreanimation.h" />
+    <ClInclude Include="Cal3D\corebone.h" />
+    <ClInclude Include="Cal3D\corekeyframe.h" />
+    <ClInclude Include="Cal3D\corematerial.h" />
+    <ClInclude Include="Cal3D\coremesh.h" />
+    <ClInclude Include="Cal3D\coremodel.h" />
+    <ClInclude Include="Cal3D\coremorphanimation.h" />
+    <ClInclude Include="Cal3D\coreskeleton.h" />
+    <ClInclude Include="Cal3D\coresubmesh.h" />
+    <ClInclude Include="Cal3D\coresubmorphtarget.h" />
+    <ClInclude Include="Cal3D\coretrack.h" />
+    <ClInclude Include="Cal3D\datasource.h" />
+    <ClInclude Include="Cal3D\error.h" />
+    <ClInclude Include="Cal3D\global.h" />
+    <ClInclude Include="Cal3D\hardwaremodel.h" />
+    <ClInclude Include="Cal3D\loader.h" />
+    <ClInclude Include="Cal3D\matrix.h" />
+    <ClInclude Include="Cal3D\mesh.h" />
+    <ClInclude Include="Cal3D\mixer.h" />
+    <ClInclude Include="Cal3D\model.h" />
+    <ClInclude Include="Cal3D\morphtargetmixer.h" />
+    <ClInclude Include="Cal3D\physique.h" />
+    <ClInclude Include="Cal3D\platform.h" />
+    <ClInclude Include="Cal3D\quaternion.h" />
+    <ClInclude Include="Cal3D\refcounted.h" />
+    <ClInclude Include="Cal3D\refptr.h" />
+    <ClInclude Include="Cal3D\renderer.h" />
+    <ClInclude Include="Cal3D\resource.h" />
+    <ClInclude Include="Cal3D\saver.h" />
+    <ClInclude Include="Cal3D\skeleton.h" />
+    <ClInclude Include="Cal3D\springsystem.h" />
+    <ClInclude Include="Cal3D\streamsource.h" />
+    <ClInclude Include="Cal3D\submesh.h" />
+    <ClInclude Include="Cal3D\tinyxml.h" />
+    <ClInclude Include="Cal3D\transform.h" />
+    <ClInclude Include="Cal3D\vector.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameConfigInterface.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameInitInfo.h" />
+    <ClInclude Include="GameLoadoutMenu.h" />
+    <ClInclude Include="GameMainMenu.h" />
+    <ClInclude Include="GameMode.h" />
+    <ClInclude Include="GMCaptureTheFlag.h" />
+    <ClInclude Include="GMDeathmatch.h" />
+    <ClInclude Include="GMSectorControl.h" />
+    <ClInclude Include="GraphicsModule.h" />
+    <ClInclude Include="HeaderGuardedWinsock2.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="LGIDX11.h" />
+    <ClInclude Include="LowLevelGraphicsInterface.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="OperatingSystemInterface.h" />
+    <ClInclude Include="OSIWin32.h" />
+    <ClInclude Include="pseBase.h" />
+    <ClInclude Include="psGameClient.h" />
+    <ClInclude Include="psGui.h" />
+    <ClInclude Include="psHUD.h" />
+    <ClInclude Include="psInput.h" />
+    <ClInclude Include="psLogic.h" />
+    <ClInclude Include="psMath.h" />
+    <ClInclude Include="psMechanics.h" />
+    <ClInclude Include="psPhysics.h" />
+    <ClInclude Include="RenderTarget.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="S2D.h" />
+    <ClInclude Include="S3D.h" />
+    <ClInclude Include="SAbility.h" />
+    <ClInclude Include="SAnimatedMesh.h" />
+    <ClInclude Include="SAUDIO.h" />
+    <ClInclude Include="SBlockData.h" />
+    <ClInclude Include="SCamera.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scene2D.h" />
+    <ClInclude Include="Scene3D.h" />
+    <ClInclude Include="SCharacter.h" />
+    <ClInclude Include="SConfigs.h" />
+    <ClInclude Include="SCore.h" />
+    <ClInclude Include="SCreateLobbyMenu.h" />
+    <ClInclude Include="SDeferredRenderer.h" />
+    <ClInclude Include="SEditorGrid.h" />
+    <ClInclude Include="SEditorUniversal.h" />
+    <ClInclude Include="SExplosive.h" />
+    <ClInclude Include="SFont.h" />
+    <ClInclude Include="SFuncs.h" />
+    <ClInclude Include="SGameObject.h" />
+    <ClInclude Include="SGameServer.h" />
+    <ClInclude Include="SGameServerMode.h" />
+    <ClInclude Include="SGameServerModeCTF.h" />
+    <ClInclude Include="SGameServerModeDM.h" />
+    <ClInclude Include="SGameServerModeSC.h" />
+    <ClInclude Include="SGameServerModeTDM.h" />
+    <ClInclude Include="SGameServerPlayer.h" />
+    <ClInclude Include="SGameServerWorld.h" />
+    <ClInclude Include="SGameStateDefines.h" />
+    <ClInclude Include="SGUI.h" />
+    <ClInclude Include="SimBioticNetClient.h" />
+    <ClInclude Include="SInput.h" />
+    <ClInclude Include="SInterface.h" />
+    <ClInclude Include="SJoinLobbyMenu.h" />
+    <ClInclude Include="SLeaderboard.h" />
+    <ClInclude Include="SLevelEditor.h" />
+    <ClInclude Include="SLight.h" />
+    <ClInclude Include="SLobbyClient.h" />
+    <ClInclude Include="SLobbyServer.h" />
+    <ClInclude Include="SLOG.h" />
+    <ClInclude Include="SMainMenu.h" />
+    <ClInclude Include="SMainMenuModCharacter.h" />
+    <ClInclude Include="SMatchmakingMenu.h" />
+    <ClInclude Include="SMaterial.h" />
+    <ClInclude Include="SMaterialSet.h" />
+    <ClInclude Include="SMesh.h" />
+    <ClInclude Include="SMutableMesh.h" />
+    <ClInclude Include="SOptionsMenu.h" />
+    <ClInclude Include="SParticleSystem.h" />
+    <ClInclude Include="SPhysics.h" />
+    <ClInclude Include="SPreMenu.h" />
+    <ClInclude Include="SProjectile.h" />
+    <ClInclude Include="srAnimation.h" />
+    <ClInclude Include="SRender.h" />
+    <ClInclude Include="SSetPoint.h" />
+    <ClInclude Include="SSGame.h" />
+    <ClInclude Include="SSingleMatchMenu.h" />
+    <ClInclude Include="SText.h" />
+    <ClInclude Include="SThemeData.h" />
+    <ClInclude Include="SymbiotePacketStructs.h" />
+    <ClInclude Include="SymbioteWinsock.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="VertexBuffer.h" />
+    <ClInclude Include="VertexStructures.h" />
+    <ClInclude Include="VoxelData.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DeferredRendering.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="wiki.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

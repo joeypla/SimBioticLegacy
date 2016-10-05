@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SLS">
+      <UniqueIdentifier>{044ea98a-43f0-4a22-a3a7-2bef66cbecaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SLS">
+      <UniqueIdentifier>{be2c59e9-f7b2-4c9b-8267-464acda893ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EDITOR">
+      <UniqueIdentifier>{66e64241-f5e5-4292-8e0b-4403bc6fbdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EDITOR">
+      <UniqueIdentifier>{8d52c4fa-c1af-4219-9adb-9a77c463692b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{dd29b207-23ce-45a5-9ffb-a9d9a197c062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{b74caf04-9f67-4a51-988f-fc66bbf1850e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRender">
+      <UniqueIdentifier>{67c36e08-09a9-41ab-9e8f-e7744bbb73b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Levels">
+      <UniqueIdentifier>{cba86e04-0bd1-458a-ad46-d795de183bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SRender">
+      <UniqueIdentifier>{c2491b97-dbf2-4ceb-8594-d620c6ee242d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NonGame">
+      <UniqueIdentifier>{0cff20cb-b114-4105-8c4e-5be848f4c7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NonGame">
+      <UniqueIdentifier>{5799d256-47ce-4b2f-961c-b7e4d773a239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{d12d0657-7ff9-4934-b810-ac33e276ac4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\psGui">
+      <UniqueIdentifier>{6f23447d-01d0-4f73-85ff-92953d507616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{65f2b1fe-593a-44d9-a767-6c2c0989ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{b85e334e-cfca-4bac-b0e4-252798091407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{088112d1-22ca-4386-af25-8ebfdbcc59ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{03eed7b6-fcec-461c-97de-2671bde61652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameModes">
+      <UniqueIdentifier>{5f50b5d4-3b59-4dcd-ac88-512890c05176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameModes">
+      <UniqueIdentifier>{42290f4b-7fd0-464b-974e-f6a785806756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SRender\DeferredPipeline">
+      <UniqueIdentifier>{8587da6f-010c-4208-8ee3-5784ef241b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRender\DeferredPipeline">
+      <UniqueIdentifier>{ab1e6852-79c0-4658-bb03-1152f1c94ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\Client">
+      <UniqueIdentifier>{eea09acb-5cde-4403-8f72-a9be78805962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\Server">
+      <UniqueIdentifier>{25651b7e-b931-45a9-a82a-2d3fa67ed0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Client">
+      <UniqueIdentifier>{b8f213b4-689d-47be-8b94-d2ce1666f633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Server">
+      <UniqueIdentifier>{f8dada0c-9bd2-4b60-a2b4-fe7a51e4cce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Server\Game Modes">
+      <UniqueIdentifier>{01bf5c38-60b9-40d9-8abc-ac26a7a31e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\Server\Game Modes">
+      <UniqueIdentifier>{8cdc297c-6fa8-409e-abcc-7e9512b8b5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\SAbilities">
+      <UniqueIdentifier>{8bfae42b-0a7e-4af7-96c5-7380cfbcee96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SRender\Cal3D">
+      <UniqueIdentifier>{c9ceda9f-d6a1-4dfd-85fc-a21fe674fc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRender\Cal3D">
+      <UniqueIdentifier>{d3ae4f40-48ce-472e-9d09-2ca3703c293e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Game Objects">
+      <UniqueIdentifier>{cc6faf91-2253-4cbb-a92b-c84395e6a672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Game Objects">
+      <UniqueIdentifier>{8b962a91-5b8f-499e-83cc-b8466769b5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\adAPT">
+      <UniqueIdentifier>{7b6bbd34-c375-4b2d-8a01-4f06df4add61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\adAPT\OperatingSystemInterface">
+      <UniqueIdentifier>{b25e0b48-85d6-4811-a2b3-161f6912166d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adAPT">
+      <UniqueIdentifier>{374a981d-fd7f-4a0b-aba4-0bd0278c074f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adAPT\LowLevelGraphicsInterface">
+      <UniqueIdentifier>{050deda6-9c41-4d44-aef3-63845d32228d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\adAPT\LowLevelGraphicsInterface">
+      <UniqueIdentifier>{7e61349e-402f-41b9-af0f-18fbe66694bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adAPT\OperatingSystemInterface">
+      <UniqueIdentifier>{3a06b7c4-08f1-4364-85a2-4b5163b07e5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SAUDIO.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SConfigs.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SCore.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SD3D.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SFont.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SGUI.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SPhysics.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SInput.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SLevelEditor.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="SEditorGrid.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="SWin32.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SLOG.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SFuncs.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SText.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SRender.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SMesh.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SLight.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SCamera.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SInterface.cpp">
+      <Filter>Source Files\SLS</Filter>
+    </ClCompile>
+    <ClCompile Include="SMainMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SPreMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S3D.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SMutableMesh.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="pseBase.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="SGridMesh.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="pseInput.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="pseBlockEditing.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Checkbox.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleButton.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="pseGeneral.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="pseLA.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="SLineBoxMesh.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="TextField.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="psPhysics.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pseLoad.cpp">
+      <Filter>Source Files\EDITOR</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBase.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SMaterialSet.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInitInfo.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelData.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="psLogic.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="psInput.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SMaterial.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="psHUD.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="psMechanics.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>Source Files\Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="GMDeathmatch.cpp">
+      <Filter>Source Files\Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="SAnimatedMesh.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SDeferredRenderer.cpp">
+      <Filter>Source Files\SRender\DeferredPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="psMath.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GMSectorControl.cpp">
+      <Filter>Source Files\Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="SParticleSystem.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SMainMenuModCharacter.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SLeaderboard.cpp">
+      <Filter>Source Files\Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="psGameClient.cpp">
+      <Filter>Source Files\Networking\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerPlayer.cpp">
+      <Filter>Source Files\Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbioteWinsock.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="SSingleMatchMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerMode.cpp">
+      <Filter>Source Files\Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerModeDM.cpp">
+      <Filter>Source Files\Networking\Server\Game Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerModeTDM.cpp">
+      <Filter>Source Files\Networking\Server\Game Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerModeSC.cpp">
+      <Filter>Source Files\Networking\Server\Game Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerModeCTF.cpp">
+      <Filter>Source Files\Networking\Server\Game Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServerWorld.cpp">
+      <Filter>Source Files\Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="SSetPoint.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameServer.cpp">
+      <Filter>Source Files\Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfigInterface.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SOptionsMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SimBioticNetClient.cpp">
+      <Filter>Source Files\Networking\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="SLobbyServer.cpp">
+      <Filter>Source Files\Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Listbox.cpp">
+      <Filter>Source Files\psGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SMatchmakingMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SCharacter.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SCreateLobbyMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SJoinLobbyMenu.cpp">
+      <Filter>Source Files\NonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMainMenu.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SImage.cpp">
+      <Filter>Source Files\SRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SAbility.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SAbility_Wallhack.cpp">
+      <Filter>Source Files\Game\SAbilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SAbility_Blink.cpp">
+      <Filter>Source Files\Game\SAbilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\animation.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\animation_action.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\animation_cycle.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\bone.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\buffersource.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\cal3d_wrapper.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coreanimation.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\corebone.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\corekeyframe.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\corematerial.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coremesh.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coremodel.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coremorphanimation.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coreskeleton.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coresubmesh.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coresubmorphtarget.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\coretrack.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\error.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\global.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\hardwaremodel.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\loader.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\matrix.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\mesh.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\mixer.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\model.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\morphtargetmixer.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\physique.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\platform.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\quaternion.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\renderer.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\saver.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\skeleton.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\springsystem.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\streamsource.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\submesh.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\tinyxml.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\tinyxmlerror.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\tinyxmlparser.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal3D\vector.cpp">
+      <Filter>Source Files\SRender\Cal3D</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameObject.cpp">
+      <Filter>Source Files\Game\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SProjectile.cpp">
+      <Filter>Source Files\Game\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SExplosive.cpp">
+      <Filter>Source Files\Game\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SAbility_Firebolt.cpp">
+      <Filter>Source Files\Game\SAbilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoadoutMenu.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="adAPT.cpp">
+      <Filter>Source Files\adAPT</Filter>
+    </ClCompile>
+    <ClCompile Include="OSIWin32.cpp">
+      <Filter>Source Files\adAPT\OperatingSystemInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="LGIDX11.cpp">
+      <Filter>Source Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatingSystemInterface.cpp">
+      <Filter>Source Files\adAPT\OperatingSystemInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SAUDIO.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SConfigs.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SCore.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SGUI.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SInput.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SPhysics.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SLevelEditor.h">
+      <Filter>Header Files\EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="SEditorGrid.h">
+      <Filter>Header Files\EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="SEditorUniversal.h">
+      <Filter>Header Files\EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="SLOG.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SFuncs.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SFont.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SRender.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SInterface.h">
+      <Filter>Header Files\SLS</Filter>
+    </ClInclude>
+    <ClInclude Include="SMainMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SPreMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="pseBase.h">
+      <Filter>Header Files\EDITOR</Filter>
+    </ClInclude>
+    <ClInclude Include="psGui.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="psPhysics.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInitInfo.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelData.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="psLogic.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="psInput.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="psMath.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="psHUD.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Header Files\Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="GMDeathmatch.h">
+      <Filter>Header Files\Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="psMechanics.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="srAnimation.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SAnimatedMesh.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SDeferredRenderer.h">
+      <Filter>Header Files\SRender\DeferredPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="GMSectorControl.h">
+      <Filter>Header Files\Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="SSetPoint.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorClass.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SSingleMatchMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbiotePacketStructs.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="SParticleSystem.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SMainMenuModCharacter.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SLeaderboard.h">
+      <Filter>Header Files\Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="psGameClient.h">
+      <Filter>Header Files\Networking\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServer.h">
+      <Filter>Header Files\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerPlayer.h">
+      <Filter>Header Files\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbioteWinsock.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderGuardedWinsock2.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerMode.h">
+      <Filter>Header Files\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerModeDM.h">
+      <Filter>Header Files\Networking\Server\Game Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerModeTDM.h">
+      <Filter>Header Files\Networking\Server\Game Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerModeSC.h">
+      <Filter>Header Files\Networking\Server\Game Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerModeCTF.h">
+      <Filter>Header Files\Networking\Server\Game Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameServerWorld.h">
+      <Filter>Header Files\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="GMCaptureTheFlag.h">
+      <Filter>Header Files\Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameStateDefines.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SAbility.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfigInterface.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SOptionsMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SMatchmakingMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCreateLobbyMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SimBioticNetClient.h">
+      <Filter>Header Files\Networking\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SLobbyServer.h">
+      <Filter>Header Files\Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SLobbyClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCharacter.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SJoinLobbyMenu.h">
+      <Filter>Header Files\NonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMainMenu.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\animation.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\animation_action.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\animation_cycle.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\animcallback.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\bone.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\buffersource.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\cal3d.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\cal3d_wrapper.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coreanimation.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\corebone.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\corekeyframe.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\corematerial.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coremesh.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coremodel.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coremorphanimation.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coreskeleton.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coresubmesh.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coresubmorphtarget.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\coretrack.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\datasource.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\error.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\global.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\hardwaremodel.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\loader.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\matrix.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\mesh.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\mixer.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\model.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\morphtargetmixer.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\physique.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\platform.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\quaternion.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\refcounted.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\refptr.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\renderer.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\resource.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\saver.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\skeleton.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\springsystem.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\streamsource.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\submesh.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\tinyxml.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\transform.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal3D\vector.h">
+      <Filter>Header Files\SRender\Cal3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SExplosive.h">
+      <Filter>Header Files\Game\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SProjectile.h">
+      <Filter>Header Files\Game\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameObject.h">
+      <Filter>Header Files\Game\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SThemeData.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SBlockData.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStructures.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SLight.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SCamera.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SMesh.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SMaterialSet.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SMaterial.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SMutableMesh.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SText.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="S3D.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D.h">
+      <Filter>Header Files\SRender</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoadoutMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adAPT.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsModule.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModule.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2D.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene3D.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\adAPT</Filter>
+    </ClInclude>
+    <ClInclude Include="LowLevelGraphicsInterface.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatingSystemInterface.h">
+      <Filter>Header Files\adAPT\OperatingSystemInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="OSIWin32.h">
+      <Filter>Header Files\adAPT\OperatingSystemInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="LGIDX11.h">
+      <Filter>Header Files\adAPT\LowLevelGraphicsInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DeferredRendering.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="wiki.txt">
+      <Filter>Header Files\adAPT</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

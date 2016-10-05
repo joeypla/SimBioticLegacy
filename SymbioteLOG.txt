@@ -1,0 +1,2 @@
+-Project Symbiote LOG-
+A shader was not loaded correctly. ERROR: 

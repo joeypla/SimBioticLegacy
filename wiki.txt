@@ -1,0 +1,16 @@
+The classes - The big ones...
+
+Engine
+Scene
+Module
+
+Scene
+A scene is a finite space and its Entities. It can be a massive outdoor world, to a little house, to a gui to a 2d room. Scenes can be drawn to other scenes, and will be projected
+if the parent scene's container is a lower dimension. An example of this would be having a 3d room scene and drawing another 3d scene onto a 2d surface like a tv screen. One
+can also draw a 3d scene within a 3d space. This provides flexibility when wanting to have things divided into regions.
+
+Entity
+An Entity is anything that exists in a scene. This is very general. It need not even have a position. The idea behind this is so that ghost like behaviour (ie gamemode) can be
+simulated this way. It is not the only option, but its available largely for this reason. Examples: Gamemode behaviour, custom script like behaviour, general music.
+
+Module 
